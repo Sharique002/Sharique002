@@ -1,140 +1,155 @@
-<h2 align="left">Hi 👋 Sharique this side </h2>
-
-<h3 align="left">AI + Backend Systems Engineer | Full-Stack Developer</h3>
-
-<p align="left">
-  I build intelligent AI agents, scalable backend systems, and full-stack applications.
-  I'm currently focused on AI engineering, backend infrastructure, system design, and DSA.
-</p>
-
-###
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sharique002/Sharique002/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="GitHub stats" />
-  
-  <img src="https://raw.githubusercontent.com/Sharique002/Sharique002/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top languages" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,8,24&height=180&section=header&text=Md%20Sharique%20Hussain&fontSize=42&fontAlignY=38&desc=AI%20%26%20Backend%20Systems%20Engineer%20%7C%20Agentic%20AI%20Builder&descFontSize=18&descAlignY=62" width="100%" alt="Md Sharique Hussain Banner" />
+
+  <a href="https://shariqueportfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-shariqueportfolio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/shariquehussain02/">
+    <img src="https://img.shields.io/badge/LinkedIn-shariquehussain02-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:shariquehussain03@gmail.com">
+    <img src="https://img.shields.io/badge/Email-shariquehussain03%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Sharique002">
+    <img src="https://komarev.com/ghpvc/?username=Sharique002&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  </a>
 </div>
 
-###
+<br />
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif" alt="coding animation" />
+### 👨‍💻 About Me
 
-### 🚀 What I'm Working On
+I am an **AI & Backend Systems Engineer** focused on building intelligent **Agentic AI systems**, high-performance backend microservices, and end-to-end full-stack applications.
 
-- 🤖 Building **AI Agents and Agentic AI systems**
-- ⚙️ Developing **scalable backend APIs and services**
-- 🧠 Exploring **RAG, LLMs, embeddings and AI evaluation**
-- ☁️ Learning **AWS, Redis, DynamoDB and backend infrastructure**
-- 💻 Preparing for **Software Engineering interviews**
+- 🤖 **Agentic AI & LLMs**: Developing autonomous agents with multi-step reasoning, plan-act loops, tool calling, and long-term memory.
+- ⚙️ **Backend Engineering**: Designing robust RESTful APIs, distributed services, and database schemas with high reliability.
+- 🧠 **RAG & Information Retrieval**: Building semantic search workflows, vector database indexing, and AI evaluation pipelines.
+- ☁️ **Cloud & Infrastructure**: Containerizing distributed applications with Docker, implementing telemetry with Prometheus & Grafana, and deploying on Linux environments.
+- 🎯 **Continuous Learning**: Actively practicing advanced Data Structures & Algorithms and System Design.
+
+---
 
 ### 🛠️ Tech Stack
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="C++" />
-  <img width="12" />
+<table>
+  <tr>
+    <td width="20%"><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>AI & Agentic Systems</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/Agentic_AI-Plan--Act_Loops-8A2BE2?style=flat-square" alt="Agentic AI" />
+      <img src="https://img.shields.io/badge/RAG_Pipelines-Vector_Search-4B0082?style=flat-square" alt="RAG" />
+      <img src="https://img.shields.io/badge/LLM_Tool_Calling-FastAPI_Agents-005571?style=flat-square" alt="Tool Calling" />
+      <img src="https://img.shields.io/badge/Vector_Embeddings-Semantic_Retrieval-2E8B57?style=flat-square" alt="Embeddings" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Backend & Frameworks</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/REST_APIs-System_Architecture-blue?style=flat-square" alt="REST" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Databases & Caching</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>DevOps & Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+    </td>
+  </tr>
+</table>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="Python" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="React" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="Next.js" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="PostgreSQL" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="MongoDB" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Linux" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Git" />
-</div>
-
-###
+---
 
 ### 🔥 Featured Projects
 
-| Project | Description |
-|---|---|
-| 🤖 **CARE** | Customer Autonomous Resolution Engine — an Agentic AI system for autonomous ticket processing and decision-making |
-| 📚 **Study4You** | AI-powered study planner agent for personalized learning and planning |
-| 🧠 **reBorn_i** | Hiring Probability Intelligence Platform using embeddings and AI |
-| 📊 **PulseWat** | Monitoring and observability lab using Docker, Prometheus and Grafana |
+| Project | Description | Core Stack | Links |
+|:---|:---|:---|:---:|
+| 🤖 **CARE** | **Customer Autonomous Resolution Engine** — An autonomous Agentic AI system engineered for multi-step reasoning, plan-act decision making, and automated support ticket resolution. | `Python` `FastAPI` `LangChain` `Docker` | [**Repo**](https://github.com/Sharique002/CARECustomerAutonomousResolutionEngineSharique022) |
+| 📚 **Study4You** | **Agentic Study Planner** — Autonomous curriculum agent utilizing a plan-act loop, dynamic tool integration, and long-term memory for personalized study roadmaps. | `Python` `Agentic AI` `LLM Memory` `Tools` | [**Repo**](https://github.com/Sharique002/T24-Study-Planner-Agent_MSH) |
+| 🔬 **ScholarLens** | **AI Literature Intelligence** — Automated scientific paper parsing, semantic retrieval, and document intelligence pipeline for rapid research synthesis. | `Python` `NLP` `Embeddings` `Vector Search` | [**Repo**](https://github.com/Sharique002/Scholar_Lens) |
+| 🧠 **reBorn_i** | **Hiring Probability Intelligence** — Machine-assisted recruitment intelligence platform evaluating candidate match potential via semantic vector comparison. | `TypeScript` `React` `Node.js` `AI Scoring` | [**Repo**](https://github.com/Sharique002/reBorn_i) |
+| 📊 **PulseWat** | **Observability & Telemetry Lab** — Distributed monitoring infrastructure featuring real-time metric scraping, alerting thresholds, and system health dashboards. | `Docker` `Prometheus` `Grafana` `Linux` | [**Repo**](https://github.com/Sharique002/PulseWat) |
+| 🌐 **Portfolio** | **Personal Engineering Space** — Production portfolio featuring full-stack architecture overviews, project demos, and technical achievements. | `Next.js` `React` `Tailwind` `Vercel` | [**Repo**](https://github.com/Sharique002/Portfolio) • [**Live**](https://shariqueportfolio.vercel.app) |
 
-###
+---
 
 ### 🏆 Achievements & Certifications
 
-- 🥇 Selected among **2,000+ global builders** in the Agentic AI Hackathon 2026
-- 🤖 Built and demonstrated **CARE — Customer Autonomous Resolution Engine**
-- 🎓 **Oracle Certified AI Foundations Associate**
-- 🐧 **Linux for Developers — Linux Foundation**
-- ☁️ **Cloud Computing — IIT Kharagpur**
-- 🌐 **The Bits and Bytes of Computer Networking — Google**
-- 💻 **Software Engineer Intern Certificate — HackerRank**
+- 🥇 **Agentic AI Hackathon 2026** — Selected among **2,000+ global builders**; architected and demonstrated **CARE**.
+- 🎓 **Oracle Certified AI Foundations Associate** — Foundations of AI, Machine Learning, and Neural Networks.
+- 🐧 **Linux for Developers** — The Linux Foundation.
+- ☁️ **Cloud Computing** — NPTEL / IIT Kharagpur.
+- 🌐 **The Bits and Bytes of Computer Networking** — Google.
+- 💻 **Software Engineer Certificate** — HackerRank.
 
-###
+---
 
-### 💬 Ask Me About
+### 📊 GitHub Analytics
 
-`AI Agents` · `LLMs` · `RAG` · `FastAPI` · `Backend Systems` · `REST APIs` · `React` · `Next.js` · `PostgreSQL` · `Docker` · `DSA` · `System Design`
-
-###
-
-### 📫 Connect With Me
-
-<div align="left">
-
-  <a href="https://github.com/Sharique002">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="35" alt="GitHub" />
-  </a>
-
-  <img width="12" />
-
-  <a href="mailto:shariquehussain03@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" alt="Gmail" />
-  </a>
-
-  <img width="12" />
-
-  <!-- Replace YOUR_LINKEDIN_URL with your actual LinkedIn profile -->
-  <a href="https://www.linkedin.com/in/shariquehussain02/">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="35" alt="LinkedIn" />
-  </a>
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=Sharique002&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" height="165" />
 </div>
 
-###
+<br />
 
-### 🌐 Portfolio
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sharique002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="165" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sharique002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165" alt="Top Languages" />
+</div>
 
-<p align="left">
-  <a href="https://shariqueportfolio.vercel.app">
-    https://shariqueportfolio.vercel.app
-  </a>
-</p>
+---
 
-###
+### 🐍 Contribution Activity
 
-### 🐍 Contribution Snake
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
 
-<img src="https://raw.githubusercontent.com/Sharique002/Sharique002/snake-output/snake.svg" alt="Snake animation" />
+---
 
-###
-
-<p align="center">
-  <i>Building intelligent systems, one problem at a time.</i>
-</p>
+<div align="center">
+  <p><i>"Building intelligent systems, one problem at a time."</i></p>
+  <sub>Designed & engineered with precision by <strong>Md Sharique Hussain</strong></sub>
+</div>
