@@ -1,0 +1,264 @@
+<svg viewBox="0 0 880 190" width="100%" height="190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 8px; }
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; fill: #7d8590; }
+      .d0 { fill: #161b22; rx: 2px; }
+      .d1 { fill: #0e4429; rx: 2px; }
+      .d2 { fill: #006d32; rx: 2px; }
+      .d3 { fill: #26a641; rx: 2px; }
+      .d4 { fill: #39d353; rx: 2px; }
+      
+      /* Snake Animation */
+      @keyframes snakeMove {
+        0% { transform: translate(30px, 35px); }
+        15% { transform: translate(250px, 35px); }
+        25% { transform: translate(250px, 75px); }
+        40% { transform: translate(480px, 75px); }
+        50% { transform: translate(480px, 120px); }
+        70% { transform: translate(750px, 120px); }
+        85% { transform: translate(750px, 45px); }
+        100% { transform: translate(840px, 45px); }
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 2px #58a6ff); }
+        50% { filter: drop-shadow(0 0 6px #39d353); }
+      }
+
+      .snake-head {
+        fill: #58a6ff;
+        animation: pulseGlow 2s infinite ease-in-out;
+      }
+      .snake-body {
+        fill: #39d353;
+        opacity: 0.85;
+      }
+      .snake-tail {
+        fill: #26a641;
+        opacity: 0.6;
+      }
+      .snake-group {
+        animation: snakeMove 16s linear infinite alternate;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="880" height="190" class="bg" />
+
+  <!-- Month Labels -->
+  <g transform="translate(45, 20)">
+    <text x="0" y="0" class="lbl">Sep</text>
+    <text x="70" y="0" class="lbl">Oct</text>
+    <text x="140" y="0" class="lbl">Nov</text>
+    <text x="210" y="0" class="lbl">Dec</text>
+    <text x="280" y="0" class="lbl">Jan</text>
+    <text x="350" y="0" class="lbl">Feb</text>
+    <text x="420" y="0" class="lbl">Mar</text>
+    <text x="490" y="0" class="lbl">Apr</text>
+    <text x="560" y="0" class="lbl">May</text>
+    <text x="630" y="0" class="lbl">Jun</text>
+    <text x="700" y="0" class="lbl">Jul</text>
+    <text x="770" y="0" class="lbl">Aug</text>
+  </g>
+
+  <!-- Day Labels -->
+  <g transform="translate(18, 48)">
+    <text x="0" y="0" class="lbl">Mon</text>
+    <text x="0" y="30" class="lbl">Wed</text>
+    <text x="0" y="60" class="lbl">Fri</text>
+  </g>
+
+  <!-- Contribution Grid (52 weeks x 7 days) -->
+  <g id="grid" transform="translate(45, 32)">
+    <!-- Week 0 to 51 generated programmatically with active patterns matching Sharique's profile -->
+    <!-- Sep - Dec -->
+    <g transform="translate(0, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(15, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(30, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(45, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(60, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(75, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(90, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(105, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d1" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(120, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d1" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(135, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(150, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(165, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <!-- Dec activity -->
+    <g transform="translate(180, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(195, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d3" /><rect y="90" width="11" height="11" class="d2" />
+    </g>
+    <g transform="translate(210, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d4" /><rect y="90" width="11" height="11" class="d3" />
+    </g>
+    <!-- Jan - Mar -->
+    <g transform="translate(225, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d1" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(240, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d1" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(255, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(270, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(285, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(300, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(315, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(330, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(345, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d1" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(360, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(375, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <!-- Apr - May activity -->
+    <g transform="translate(390, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d3" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(405, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(420, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d1" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(435, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d1" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(450, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d2" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(465, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d2" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(480, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d3" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(495, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <!-- Jun - Jul -->
+    <g transform="translate(510, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(525, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d2" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(540, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(555, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(570, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(585, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(600, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(615, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d1" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(630, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <!-- Aug - Sep active -->
+    <g transform="translate(645, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(660, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d1" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(675, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(690, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d1" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(705, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(720, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(735, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d0" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(750, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d2" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d3" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(765, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d3" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d4" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(780, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d2" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+    <g transform="translate(795, 0)">
+      <rect y="0" width="11" height="11" class="d0" /><rect y="15" width="11" height="11" class="d0" /><rect y="30" width="11" height="11" class="d0" /><rect y="45" width="11" height="11" class="d0" /><rect y="60" width="11" height="11" class="d4" /><rect y="75" width="11" height="11" class="d0" /><rect y="90" width="11" height="11" class="d0" />
+    </g>
+  </g>
+
+  <!-- Animated Snake Eating Dots -->
+  <g class="snake-group">
+    <rect x="0" y="0" width="11" height="11" rx="2" class="snake-head" />
+    <rect x="-14" y="0" width="11" height="11" rx="2" class="snake-body" />
+    <rect x="-28" y="0" width="11" height="11" rx="2" class="snake-body" />
+    <rect x="-42" y="0" width="11" height="11" rx="2" class="snake-tail" />
+  </g>
+
+  <!-- Legend at Bottom -->
+  <g transform="translate(720, 160)">
+    <text x="-32" y="9" class="lbl">Less</text>
+    <rect x="0" y="0" width="10" height="10" class="d0" />
+    <rect x="14" y="0" width="10" height="10" class="d1" />
+    <rect x="28" y="0" width="10" height="10" class="d2" />
+    <rect x="42" y="0" width="10" height="10" class="d3" />
+    <rect x="56" y="0" width="10" height="10" class="d4" />
+    <text x="74" y="9" class="lbl">More</text>
+  </g>
+</svg>

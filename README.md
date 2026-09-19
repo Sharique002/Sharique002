@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,8,24&height=180&section=header&text=Md%20Sharique%20Hussain&fontSize=42&fontAlignY=38&desc=AI%20%26%20Backend%20Systems%20Engineer%20%7C%20Agentic%20AI%20Builder&descFontSize=18&descAlignY=62" width="100%" alt="Md Sharique Hussain Banner" />
+  <img src="./assets/banner.svg" width="100%" alt="Sharique Hussain Banner" />
 
   <a href="https://shariqueportfolio.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-shariqueportfolio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
@@ -8,6 +8,8 @@
   <a href="https://www.linkedin.com/in/shariquehussain02/">
     <img src="https://img.shields.io/badge/LinkedIn-shariquehussain02-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Pronouns-He%2FHim-7952CC?style=for-the-badge" alt="Pronouns: He/Him" />
   &nbsp;
   <a href="mailto:shariquehussain03@gmail.com">
     <img src="https://img.shields.io/badge/Email-shariquehussain03%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -22,13 +24,17 @@
 
 ### 👨‍💻 About Me
 
-I am an **AI & Backend Systems Engineer** focused on building intelligent **Agentic AI systems**, high-performance backend microservices, and end-to-end full-stack applications.
+👋 Hi there! I'm **[Sharique Hussain](https://www.linkedin.com/in/shariquehussain02/)** *(He/Him)*.
 
-- 🤖 **Agentic AI & LLMs**: Developing autonomous agents with multi-step reasoning, plan-act loops, tool calling, and long-term memory.
-- ⚙️ **Backend Engineering**: Designing robust RESTful APIs, distributed services, and database schemas with high reliability.
-- 🧠 **RAG & Information Retrieval**: Building semantic search workflows, vector database indexing, and AI evaluation pipelines.
-- ☁️ **Cloud & Infrastructure**: Containerizing distributed applications with Docker, implementing telemetry with Prometheus & Grafana, and deploying on Linux environments.
-- 🎯 **Continuous Learning**: Actively practicing advanced Data Structures & Algorithms and System Design.
+> **Engineer of Ideas | Traveler in Learning | AI Engineer | DevOps Engineer | Full-Stack Developer | Cloud Computing | Problem Solver**
+
+I engineer end-to-end intelligent systems, ranging from autonomous **Agentic AI systems** with multi-step reasoning to high-performance full-stack architectures and cloud-native microservices.
+
+- 💡 **Engineer of Ideas & Problem Solver**: Turning complex real-world challenges into elegant, highly scalable, and reliable software solutions.
+- 🤖 **AI & Agentic Systems**: Architecting autonomous agents with plan-act loops, dynamic tool calling, RAG pipelines, and persistent vector memory.
+- ⚙️ **Full-Stack & Backend Engineering**: Designing robust RESTful APIs, distributed microservices, and interactive modern user experiences.
+- ☁️ **DevOps & Cloud Computing**: Containerizing distributed systems with Docker, orchestrating CI/CD pipelines, deploying on cloud/Linux environments, and ensuring observability with Prometheus & Grafana.
+- 🧭 **Traveler in Learning**: Continuously exploring cutting-edge paradigms in Machine Learning, System Design, and advanced Data Structures & Algorithms.
 
 ---
 
@@ -45,6 +51,7 @@ I am an **AI & Backend Systems Engineer** focused on building intelligent **Agen
       <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
     </td>
   </tr>
   <tr>
@@ -63,7 +70,7 @@ I am an **AI & Backend Systems Engineer** focused on building intelligent **Agen
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
       <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-      <img src="https://img.shields.io/badge/REST_APIs-System_Architecture-blue?style=flat-square" alt="REST" />
+      <img src="https://img.shields.io/badge/REST_APIs-Microservices-0288D1?style=flat-square" alt="REST" />
     </td>
   </tr>
   <tr>
@@ -83,8 +90,9 @@ I am an **AI & Backend Systems Engineer** focused on building intelligent **Agen
     </td>
   </tr>
   <tr>
-    <td><strong>DevOps & Tools</strong></td>
+    <td><strong>DevOps & Cloud</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/Cloud_Computing-AWS_%7C_Vercel-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="Cloud Computing" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
@@ -141,9 +149,9 @@ I am an **AI & Backend Systems Engineer** focused on building intelligent **Agen
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
@@ -151,5 +159,5 @@ I am an **AI & Backend Systems Engineer** focused on building intelligent **Agen
 
 <div align="center">
   <p><i>"Building intelligent systems, one problem at a time."</i></p>
-  <sub>Designed & engineered with precision by <strong>Md Sharique Hussain</strong></sub>
+  <sub>Designed & engineered with precision by <strong>Sharique Hussain</strong></sub>
 </div>
