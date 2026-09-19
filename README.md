@@ -149,9 +149,9 @@ I engineer end-to-end intelligent systems, ranging from autonomous **Agentic AI 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Sharique002/Sharique002/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
