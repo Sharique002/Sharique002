@@ -142,6 +142,6 @@ I engineer end-to-end intelligent systems, ranging from autonomous **Agentic AI 
 ---
 
 <div align="center">
-  <p><i>"Building intelligent systems, one problem at a time."</i></p>
+  <p><i>"Building intelligent systems, with own style."</i></p>
   <sub>Designed & engineered with precision by <strong>Sharique Hussain</strong></sub>
 </div>
