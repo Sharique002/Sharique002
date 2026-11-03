@@ -115,7 +115,6 @@ I engineer end-to-end intelligent systems, ranging from autonomous **Agentic AI 
 | 🧠 **reBorn_i** | **Hiring Probability Intelligence** — Machine-assisted recruitment intelligence platform evaluating candidate match potential via semantic vector comparison. | `TypeScript` `React` `Node.js` `AI Scoring` | [**Repo**](https://github.com/Sharique002/reBorn_i) |
 | 📊 **PulseWat** | **Observability & Telemetry Lab** — Distributed monitoring infrastructure featuring real-time metric scraping, alerting thresholds, and system health dashboards. | `Docker` `Prometheus` `Grafana` `Linux` | [**Repo**](https://github.com/Sharique002/PulseWat) |
 | 🌐 **Portfolio** | **Personal Engineering Space** — Production portfolio featuring full-stack architecture overviews, project demos, and technical achievements. | `Next.js` `React` `Tailwind` `Vercel` | [**Repo**](https://github.com/Sharique002/Portfolio) • [**Live**](https://shariqueportfolio.vercel.app) |
-
 ---
 
 ### 🏆 Achievements & Certifications
@@ -126,24 +125,9 @@ I engineer end-to-end intelligent systems, ranging from autonomous **Agentic AI 
 - ☁️ **Cloud Computing** — NPTEL / IIT Kharagpur.
 - 🌐 **The Bits and Bytes of Computer Networking** — Google.
 - 💻 **Software Engineer Certificate** — HackerRank.
-
+- 
 ---
 
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Sharique002&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" height="165" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sharique002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="165" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sharique002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165" alt="Top Languages" />
-</div>
-
----
 
 ### 🐍 Contribution Activity
 
